@@ -1,0 +1,51 @@
+/* @start color */
+:root {
+  /* Main colors for the app: Logo colors, banner colors, main background  */
+  --color-primary: #2c0e66;
+  --color-error: #ce1616;
+  --color-success: #068909;
+  --color-warn: #f9f895;
+  --color-alert: #CEA043;
+  /* Text colors */
+  --color-text-primary: #40545D;
+  --color-text-secondary: #393939;
+  --color-text-caption: #6D6D6D;
+  --color-text-link: #3F51B5;
+  --color-text-on-dark: #FFFFFF;
+  /** TIP: Check for contrast ratio again all background colors,
+      * notification colors, against the text colors and make sure the constrast ratio is 4.5.
+      * This makes it accessible and available to a larger audience.
+      * Tool: http://leaverou.github.io/contrast-ratio/ 
+  **/
+  /* Accent colors for your app */
+  /* Name them based on intent and functionality rather than the color itself. 
+     This can help with 1. rebranding in the future 2. themeing 3. themeing for PWAs
+  */
+  --color-accent-hotel: #4B4C22;
+  --color-accent-main: #40545D;
+  /** TIP: Add other colors you think are necessary for your project.
+    * Try not to include more than 3 shades of that color. This leads to color collisions and
+    * more often than not, people cannot discern the differences in subtle differences.
+  **/
+  /** TIP: This can be included as background colors, icon colors, borders.
+      These colors should not be used as color for text. Add them to text colors.
+  **/
+  /* The inevitables */
+  --color-white-g1: #FFFFFF;
+  --color-white-g2: #F4F3EE;
+  --color-success-g1: #DEF9DD;
+  --color-success-g2: #A4F1A1;
+  --color-danger-g1: #F7D2D2;
+  --color-danger-g2: #EE9292;
+  --theme-user-input: #CACADB;
+  /** TIP: Keep this section for the colors you will inevitably need in a large app.
+      Make sure to reduce to keep the variations of each shade under 3 or 5. These
+      are generally used for borders, backgrounds, icons. If you are using them with text,
+      make sure to check for the contrast ratio against your text colors and keep it 4.5 or higher
+  **/
+  /** TIP: Discourage lighten(color, 10%) and other similar functions.
+      As easy as this may be, it adds to color collisions. Instead, evaluate the colors
+      and add the appropriate ones here **/
+}
+/* @end color */
+

@@ -1,0 +1,15 @@
+{
+  "name": "colorfix",
+  "version": "1.0.0",
+  "description": "Fix color collision problems with nearest-color",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Archana Sankaranarayanan",
+  "license": "ISC",
+  "dependencies": {
+    "nearest-color": "^0.4.0",
+    "recursive-readdir": "^2.2.1"
+  }
+}

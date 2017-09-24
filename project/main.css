@@ -1,0 +1,33 @@
+.target-value {
+  text-anchor: end;
+  fill: #C91111;
+  font-size: 12px;
+}
+
+.score-4 {
+  color: #ecece2;
+}
+
+.trend {
+  display: inline-block;
+  background-color: #faf1f2;
+  border: 1px solid #ececec;
+  margin-left: 15px;
+  padding: 5px;
+  margin-top: 7px;
+  width: 210px;
+  height: 97px;
+}
+
+.score-1 {
+  background-color: #183803;
+}
+.score-2 {
+  background-color: #FAFAAB !important;
+}
+.score-3 {
+  background-color: #D3814D !important;
+}
+.score-4 {
+  background-color: #ECBABA !important;
+}
